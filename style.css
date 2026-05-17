@@ -1,0 +1,71 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color:#7CFC00;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+}
+.demon{
+    background-color:#FF1493;
+    text-align:center;
+    color:#FFFFFF;
+    font-family:Mickael Rafailyk;
+    border-radius:20px;
+    box-shadow:0 0 20px 20px #FF69B4;
+}
+
+nav{
+    background-color:#FFA07A;
+    font-family:Mickael Rafailyk;
+    font-size:20px;
+    box-shadow:0 0 10px 5px #FF69B4;
+    border-radius:20px;
+}
+
+h2{
+   text-align:center;
+   font-family:Mickael Rafailyk;
+   box-shadow:0 0 20px 20px #8B0000;
+   border-radius:20px;
+   color:#FFFFFF;
+}
+.ds-inf{
+    display:flex;
+    justify-content: center;
+}
+
+.demon-p{
+     background-color:#900020; 
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.demon-p:hover{
+     animation: fadeIn 0.8s forwards ;
+    opacity: 1;
+}
+
+.demon-m{
+    background-color:#900020; 
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.demon-m:hover{
+    animation: fadeIn 0.8s forwards ;
+    opacity: 1;
+}
+
+.ds-img{
+     cursor:🐗 ;
+}
+
+.ds-img:active {
+  cursor:🐗 ;
+
+  
+}
+
+.boar-img {
+cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ctext y='32' font-size='32'%3E🐗%3C/text%3E%3C/svg%3E"), pointer;
+}
